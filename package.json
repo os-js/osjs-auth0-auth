@@ -1,0 +1,48 @@
+{
+  "name": "@osjs/auth0-auth",
+  "version": "1.0.0",
+  "description": "OS.js v3 Auth0 authentication provider adapter",
+  "main": "dist/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "eslint": "eslint src/*.js",
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "prepublishOnly": "npm run eslint && rm ./dist/* && NODE_ENV=production npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andersevenrud/osjs-auth0-auth.git"
+  },
+  "keywords": [
+    "osjs"
+  ],
+  "files": [
+    "dist/",
+    "server.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "dependencies": {
+    "express-jwt": "^5.3.1",
+    "express-jwt-authz": "^1.0.0",
+    "jwks-rsa": "^1.3.0"
+  },
+  "author": "Anders Evenrud <andersevenrud@gmail.com>",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/andersevenrud/osjs-auth0-auth/issues"
+  },
+  "homepage": "https://github.com/andersevenrud/osjs-auth0-auth#readme",
+  "devDependencies": {
+    "@osjs/event-emitter": "^1.0.4",
+    "@babel/core": "^7.1.2",
+    "@babel/plugin-transform-runtime": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/runtime": "^7.1.2",
+    "babel-loader": "^8.0.4",
+    "eslint": "^5.6.1",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2"
+  }
+}
