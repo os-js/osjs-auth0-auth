@@ -87,8 +87,6 @@ In your client configuration file (`src/client/config.js`) file remove the autom
 
 ```javascript
 module.exports = {
-  public: '/',
-
   // Either comment out this section, or remove it entirely
   /*
   auth: {
