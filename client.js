@@ -9,7 +9,6 @@ export class Login extends EventEmitter {
   constructor(core, options) {
     super('Auth0Login');
 
-    this.$container = null;
     this.core = core;
     this.options = options;
   }
