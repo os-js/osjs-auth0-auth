@@ -1,6 +1,6 @@
 {
   "name": "@osjs/auth0-auth",
-  "version": "1.0.0",
+  "version": "0.5.0",
   "description": "OS.js v3 Auth0 authentication provider adapter",
   "main": "dist/main.js",
   "scripts": {
