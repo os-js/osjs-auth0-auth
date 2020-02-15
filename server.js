@@ -35,8 +35,8 @@ const jwtAuthz = require('express-jwt-authz');
 module.exports = (core, opts) => {
   const coreConfig = Object.assign({
     audience: 'https://YOUR_AUDIENCE/',
-    issuer: `https://YOUR_AUTH0_DOMAIN/`,
-    jwksUri: `https://YOUR_AUTH0_DOMAIN/.well-known/jwks.json`,
+    issuer: 'https://YOUR_AUTH0_DOMAIN/',
+    jwksUri: 'https://YOUR_AUTH0_DOMAIN/.well-known/jwks.json',
   }, core.config('auth0', {}));
 
   const options = Object.assign({
