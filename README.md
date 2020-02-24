@@ -10,9 +10,9 @@
 [![Donate](https://img.shields.io/badge/paypal-donate-yellow.svg)](https://paypal.me/andersevenrud)
 [![Community](https://img.shields.io/badge/join-community-green.svg)](https://community.os-js.org/)
 
-# OS.js v3 Auth0 Auth Provider Adapter
+# OS.js Auth0 Auth Provider Adapter
 
-This is the Auth0 Auth Provider Adapter for OS.js v3
+This is the Auth0 Auth Provider Adapter for OS.js.
 
 **THIS IS A WORK IN PROGRESS**
 
