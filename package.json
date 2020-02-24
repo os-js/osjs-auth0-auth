@@ -1,7 +1,7 @@
 {
   "name": "@osjs/auth0-auth",
-  "version": "0.5.1",
-  "description": "OS.js v3 Auth0 authentication provider adapter",
+  "version": "0.5.2",
+  "description": "OS.js Auth0 authentication provider adapter",
   "main": "dist/main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
